@@ -89,6 +89,11 @@ footer .icons:hover{
         height: 70vh !important;
     }
 }
+@media(max-width:600px){
+    .section-3 img{
+        width: 200px !important;
+    }
+}
 @media(max-width:500px){
     header h1{
         font-size: 25px !important;
