@@ -5,6 +5,9 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
 }
+footer{
+    width: 100% !important;
+}
 .navColor{
     background-color: rgb(9, 9, 53) !important;
 }
@@ -52,8 +55,12 @@ header{
     height: 100vh;
 
 }
+.prevIcon{
+    color: cyan !important;
+}
 .section-3 img{
     border-radius: 50% !important;
+    margin: 0 auto !important;
 }
 .section-2{
     background-color: rgb(19, 19, 41);
@@ -74,6 +81,15 @@ footer .icons:hover{
         height: 80vh;
     }
 }
+@media(max-width:823px){
+    header{
+        height: 110vh !important;
+    }
+    .height{
+        height: 100vh !important;
+    }
+}
+
 @media(max-width:800px){
     header h1{
         font-size: 30px !important;
@@ -87,6 +103,14 @@ footer .icons:hover{
     }
     .height{
         height: 70vh !important;
+    }
+}
+@media(max-width:750px){
+    header{
+        height: 110vh !important;
+    }
+    .height{
+        height: 100vh !important;
     }
 }
 @media(max-width:600px){
