@@ -221,7 +221,7 @@ footer .icons:hover{
         font-size: 15px !important;
     }
 }
-@media(max-width:350px){
+@media(max-width:380px){
     .img-prof{
         width: 300px !important;
     }
