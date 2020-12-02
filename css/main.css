@@ -5,6 +5,10 @@
 body{
     font-family: 'Montserrat', sans-serif !important;
 }
+.hr{
+    height: 5px;
+    background-color: #333;
+}
 footer{
     width: 100% !important;
 }
@@ -54,6 +58,10 @@ header{
 .height{
     height: 100vh;
 
+
+}
+#section-1 i{
+    color: coral !important;
 }
 .inner{
     overflow: hidden;
@@ -80,6 +88,21 @@ a{
 }
 img{
     object-fit: cover;
+}
+.java{
+    color: yellow;
+}
+.boot{
+    color: purple;
+}
+.sass{
+    color: purple;
+}
+.git{
+    color: #333;
+}
+.html{
+    color: rgb(255, 94, 0);
 }
 footer .icons:hover{
     color: cyan !important;
@@ -125,9 +148,21 @@ footer .icons:hover{
         height: 100vh !important;
     }
 }
+@media(max-width:650px){
+    header{
+        height: 70vh !important;
+    }
+    .height{
+        height: 70vh !important;
+    }
+}
 @media(max-width:600px){
     .section-3 img{
         width: 200px !important;
+    }
+    .img-prof{
+        width: 400px !important;
+        margin-top:1rem !important;
     }
 }
 @media(max-width:500px){
@@ -148,6 +183,9 @@ footer .icons:hover{
     .section-1 h1{
         font-size: 25px !important;
     }
+    .img-prof{
+        width: 370px !important;
+    }
 }
 @media(max-width:400px){
     header {
@@ -158,6 +196,9 @@ footer .icons:hover{
     }
     .section-3 h1{
         font-size: 25px !important;
+    }
+    .img-prof{
+        width: 350px !important;
     }
 }
 @media(max-width:400px){
@@ -178,5 +219,46 @@ footer .icons:hover{
     }
     header a{
         font-size: 15px !important;
+    }
+}
+@media(max-width:350px){
+    .img-prof{
+        width: 300px !important;
+    }
+}
+@media(max-width:300px){
+    .img-prof{
+        width: 200px !important;
+    }
+    section h2{
+        font-size: 20px;
+    }
+}
+
+/* Animation */
+header h1{
+    animation-name: header  !important;
+    animation-duration: 1s !important;
+    position: relative;
+}
+header p{
+    animation-name: para  !important;
+    animation-duration: 2s !important;
+    position: relative;
+}
+@keyframes header{
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 0;
+    }
+}
+@keyframes para{
+    0%{
+        left: -1000px;
+    }
+    100%{
+        left: 0;
     }
 }
